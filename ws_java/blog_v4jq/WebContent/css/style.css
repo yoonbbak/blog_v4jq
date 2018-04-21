@@ -1,0 +1,265 @@
+/*0.4*/
+
+* { /* 모든 태그에 적용 */
+	font-family: Malgun Gothic;
+	font-size: 18px;
+	margin: 0px;
+	padding: 0px;
+	color: #333333; 
+}
+
+.top_menu_label{
+	position: relative; /*부모 태그 기준설정*/
+  top: 0%;
+  left: 0%;	
+  color: #333333;
+}
+
+.top_menu_list{
+	position: relative;
+	top: 80%;
+	left: 0%;
+	background-color: rgba; (0, 0, 255, 0.2) /*0.2 투명도*/
+  color: white;
+}
+
+.menu_link:link { /* 방문전 상태 */
+  text-decoration: none; /* 밑줄 삭제 */
+  color: white;
+}
+
+.menu_link:visited { /* 방문후 상태 */
+  text-decoration: none; /* 밑줄 삭제 */
+  color: white;
+}
+
+.menu_link:hover { /* A 태그에 마우스가 올라간 상태 */
+  text-decoration: underline; /* 밑줄 출력 */
+  color: white;
+  font-weight: bold;
+}
+
+.menu_link:active { /* A 태그를 클릭한 상태 */
+  text-decoration: underline; /* 밑줄 출력 */
+  color: white;
+}
+
+ /* ASIDE 서브메뉴의 시작 -------------------------- */
+    .aside_menu{ /* 서브 메뉴 */
+    width: 100%;
+    border: none;
+    margin: 10px auto;
+  }
+ 
+  .menu_line{
+    width: 100%;
+    border-bottom: dotted 1px #777777;
+    clear: both;
+  } 
+  
+  /* ASIDE 메뉴 세로 구분선 */
+  .menu_divide{
+    color: #777777;
+    font-size: 0.8em; /* 부모 태그에 비해 글자를 80% 크기로 출력 */
+  }  
+  
+    /* ASIDE 서브메뉴의 종료 -------------------------- */
+
+.top_menu{
+	margin-top: 0px;
+  width: 100%;
+  height: 150px;
+}
+.container {
+	margin: 5px;
+}
+
+.content {
+	width: 80%;
+	margin: 0px auto;
+}
+
+.bottom_menu {
+	margin: 20px auto;
+	text-align: center;
+	clear: both;
+}
+
+.li_none {
+	list-style: none; /* 블렛 기호(<li>태그에 나오는 동그라미) 생략 */
+	margin: 10px 10px; /* 위아래 좌우 */
+}
+
+.li_center{
+	text-align: center;
+	list-style: none;
+	margin: 20px auto;
+}
+
+.fieldset_basic {
+	border-left: none;
+	border-right: none;
+	margin: 10px auto;
+}
+
+.legend_basic {
+	margin: 0px 30px;
+	border: solid 1px #AAAAAA;
+	padding: 2px;
+	background-color: #a6c2ff;
+	color: #FFFFFF;
+}
+
+.title_box {
+	width: 20%;
+	margin: 10px auto;
+	padding: 3px;
+	background-color: #ffff80;
+	border: 1px solid #555555;
+	text-align: center;
+	font-weight: bold;
+}
+
+.table_basic {
+	border: solid 1px #AAAAAA;
+	margin: 10px auto;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.th_basic {
+	border: solid 1px #CCCCCC;
+	background-color: #ffff80;
+}
+
+.td_basic {
+	border: solid 1px #CCCCCC;
+	background-color: #FFFFFF;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-align: center;
+}
+
+.td_left {
+	border: solid 1px #CCCCCC;
+	background-color: #FFFFFF;
+	padding-left: 10px;
+	text-align: left;
+}
+
+/* 적용 안 되면 크롬 캐쉬 제거 */
+A:link { /* 방문전 상태 */
+	text-decoration: none; /* 밑줄 삭제 */
+	color: #555555;
+}
+
+A:visited { /* 방문후 상태 */
+	text-decoration: none; /* 밑줄 삭제 */
+	color: #555555;
+}
+
+A:hover { /* A 태그에 마우스가 올라간 상태 */
+	text-decoration: underline; /* 밑줄 출력 */
+	color: #5555FF;
+}
+
+A:active { /* A 태그를 클릭한 상태 */
+	text-decoration: underline; /* 밑줄 출력 */
+	color: #5555FF;
+}
+
+.top_menu1 {
+	color: #CCCCCC;
+}
+
+.fieldset_no_line{
+	border: none;
+}
+
+.message{
+	width: 70%;
+	border: none;
+	margin: 0px auto;
+	text-align: center;
+	background-color: #eeeeff;
+	padding: 30px;
+}
+
+/*경고 메시지*/
+.span_warning{
+	color: #ffffff;
+	background-color: rgba( 255, 0, 0, 0.6);
+	font-weight: bold;
+	padding: 2px;
+}
+
+.input_basic{
+	border-top: none;
+	border-left: none;
+	border-right: none;
+  border-bottom: solid 1px #aaaaaa;
+	}
+	
+	.span_info{
+	   color: #ffffff;
+	   background-color: rgba(0, 200, 0, 0.6);
+	   font-weight: bold;
+	   padding: 2px;
+	}
+	 .div_grid_img{
+	   background-color: #eeeeee;
+	   float: left;
+	   position: relative;
+	   left: 0%;
+	   margin: 1%;
+	   width: 23%;
+	   height: 220px; 
+	 }
+	
+	.hr_dotted{
+	 width: 100%;
+	 clear: both;
+	 height: 1px;
+	 border-top: dotted 1px #aaaaaa;
+	 border-right: none;
+	 border-bottom: none;
+	 border-left: none;
+	 margin: 10px auto;
+	}
+
+  .div_grid_text {
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+    display: table;
+    padding: 2px;
+    border:solid 1px #DDDDDD;
+  }
+
+
+	.div_grid_text_content {
+    background-color: #FFFFFF;
+    vertical-align: middle;
+    display: table-cell;
+    padding: 20px;
+    text-align: center; 
+  }
+  
+  .top_menu_sep{
+    color: #cccccc;  
+  }
+  
+  .menu_divide{
+  color: #cccccc;
+  font-size: 1.2em; /*부모 태그의 크기보다 20% 적음*/
+  }           
+  
+ .label_basic{
+  width: 200px;
+  background-color: #99ff99;
+  display: inline-block; 
+  /* 해당 태그 영역 전체가 마치 블록된 것처럼 박스 모양으로 확장 표시, 박스 모양에 float='left' 적용 */
+  text-align: right;
+  padding-right: 10px;
+  }

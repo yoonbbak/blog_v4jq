@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>blog_v4jq</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file> 
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+ <!-- 파일 다운로드 서블릿 선언 시작 -->
+  <servlet>
+    <servlet-name>Download</servlet-name>
+    <servlet-class>nation.web.tool.Download</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Download</servlet-name>
+    <url-pattern>/download</url-pattern>
+  </servlet-mapping>
+  <!-- 파일 다운로드 서블릿 선언 시작 -->
+  
+  
+  <!-- 파일 다운로드 서블릿 선언 시작 (변경된 파일명의 처리) -->
+  <servlet>
+    <servlet-name>Download2</servlet-name>
+    <servlet-class>nation.web.tool.Download2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Download2</servlet-name>
+    <url-pattern>/download2</url-pattern>
+  </servlet-mapping>
+  <!-- 파일 다운로드 서블릿 선언 종료 (변경된 파일명의 처리) -->  
+    
+
+    
+</web-app>
